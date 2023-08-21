@@ -2,7 +2,7 @@ import React from 'react'
 import "./welcome.css"
 
 const Welcome = () => {
-    const pic = "/pic_2.png"
+    const pic = "./pic_2.png"
   return (
     <>
     <div className="banner">
@@ -17,10 +17,10 @@ const Welcome = () => {
     <div className='contact_info'>
         <h3>Let's Connect:</h3>
         <ul className='contact_list'>
-            <a href="https://www.facebook.com/SuperN0517" target='blank'><li className='contact_link'><img src='/fb_logo.png'></img></li></a>
-            <a href="https://www.linkedin.com/in/nathaniel-mercado-35a013242/" target='blank'><li className='contact_link'><img src="/linkedin_logo.png"></img></li></a>
-            <a href="mailto:nathan.mercado0517@gmail.com" target='blank'><li className='contact_link'><img src="/gmail_logo.png"></img></li></a>
-            <a href="https://github.com/Mr-Neytan" target='blank'><li className='contact_link'><img src="/github_logo.png"></img></li></a>
+            <a href="https://www.facebook.com/SuperN0517" target='blank'><li className='contact_link'><img src='./fb_logo.png'></img></li></a>
+            <a href="https://www.linkedin.com/in/nathaniel-mercado-35a013242/" target='blank'><li className='contact_link'><img src="./linkedin_logo.png"></img></li></a>
+            <a href="mailto:nathan.mercado0517@gmail.com" target='blank'><li className='contact_link'><img src="./gmail_logo.png"></img></li></a>
+            <a href="https://github.com/Mr-Neytan" target='blank'><li className='contact_link'><img src="./github_logo.png"></img></li></a>
         </ul>
     </div>
     
