@@ -1,10 +1,6 @@
 import React from 'react'
 import "./welcome.css"
-import "../../../public/pic_2.jpg"
-import "../../../public/fb_logo.png"
-import "../../../public/linkedin_logo.png"
-import "../../../public/gmail_logo.png"
-import "../../../public/github_logo.png"
+
 const Welcome = () => {
     const pic = "../../../public/pic_2.jpg"
   return (
