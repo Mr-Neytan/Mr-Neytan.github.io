@@ -2,7 +2,7 @@ import React from 'react'
 import "./welcome.css"
 
 const Welcome = () => {
-    const pic = "/pic_2.jpg"
+    const pic = "/pic_2.png"
   return (
     <>
     <div className="banner">
