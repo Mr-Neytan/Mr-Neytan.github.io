@@ -18,6 +18,7 @@ const Skills = () => {
             <li><p>Django</p></li>
             <li><p>HTML</p></li>
             <li><p>Vite</p></li>
+            <li><p>TensorFlow</p></li>
             </div>
             <div className='row'>
             <li><p>CSS</p></li>
