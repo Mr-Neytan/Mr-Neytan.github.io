@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Welcome from './Components/Welcome/Welcome'
+import Skills from './Components/Skills/Skills'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Welcome/>
       <hr></hr>
+      <Skills/>
     </>
   )
 }

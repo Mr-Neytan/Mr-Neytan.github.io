@@ -1,0 +1,64 @@
+.title h1 {
+    text-align: center;
+}
+
+.skill_list {
+    list-style: none;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill_list li {
+    margin: 1em;
+    padding: 0;
+    margin: 0.2em;
+}
+
+.language_list {
+    list-style: none;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.language_list li {
+    margin: 0 0.8em;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+.skill_list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.skill_list li {
+    margin: 1em 2em;
+}
+
+.row {
+    width: 70%;
+}
+.language_list li {
+    margin: 0 1.5em;
+}
+}
