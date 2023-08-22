@@ -10,6 +10,8 @@ function App() {
       <Welcome/>
       <hr></hr>
       <Skills/>
+      <hr></hr>
+      
     </>
   )
 }
