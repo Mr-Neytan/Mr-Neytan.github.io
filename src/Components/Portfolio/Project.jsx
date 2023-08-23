@@ -7,11 +7,17 @@ const Project = (props) => {
           <img className='preview_image' src={props.project["picture"]}></img>
         </div>
         <div className='details'>
-        <h1>{props.project["name"]}</h1>
-        <p>{props.project["description"]}</p>
+        <h1 className='project_title'>{props.project["name"]}</h1>
+        <p className='project_title'>{props.project["description"]}</p>
+        <div className='buttons'>
+        <a href={props.project["src"]} target='blank'><button><p>Source Code</p></button></a>
+        <a href={props.project["site"]} target="blank"><button><p>View Live</p></button></a>
+        </div>
         </div>
         
-    </div></>
+        
+    </div>
+    </>
     
   )
 }

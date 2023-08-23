@@ -1,10 +1,49 @@
+.project_box {
+    margin: 0;
+    padding: 0;
+    
+}
 
+.project_title{
+    margin: 0 0.5em 0.5em;
+}
 
 .preview_image {
     max-width:100%;
-    height: auto; 
+    height: auto;
+    border: solid 1px;
 }
 
-@media only screen and (min-width: 768px){
+.buttons {
+    display: flex;
+    justify-content: center;
+}
 
+button {
+   margin: 0.5em;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 992px){
+    .project_box {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        align-items: start;
+        flex-wrap: wrap;
+        margin: 0 0.5em;
+    }
+
+    .preview_image_container{
+        width: 50%;
+
+    }
+
+    .details {
+        display: flex;
+        width: 49%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
