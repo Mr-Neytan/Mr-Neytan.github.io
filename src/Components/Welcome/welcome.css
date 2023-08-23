@@ -1,4 +1,7 @@
 .banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 2px;
     margin-right: 0.5em;
     margin-left: 0.5em;
@@ -27,14 +30,18 @@ p {
 }
 
 .profile_pic {
-    max-width: 100%;
+    width: 95%;
+    max-width: 640px;
     padding: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
+    margin: 0.5em;
+    
 }
 
 .profile_pic img{
-    max-width: 100%;
+    width: 100%;
+    max-width: 640px;
     height: auto;
     border-radius: inherit;
 }
