@@ -16,7 +16,10 @@ const Project = (props) => {
         </div>
         
         
+        
     </div>
+    <br></br>
+    <br></br>
     </>
     
   )
