@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <>
     <div className='container'>
-       <h2 className="emphasis">PORTFOLIO</h2>
+       <h2 className="emphasis">WEB PORTFOLIO</h2>
        {details.map(function(project, index) {
         return (
           <Project key={index} project={project} />

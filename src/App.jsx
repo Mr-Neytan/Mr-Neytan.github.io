@@ -13,6 +13,7 @@ function App() {
       <Skills/>
       <hr></hr>
       <Portfolio/>
+      <hr></hr>
       
     </>
   )
