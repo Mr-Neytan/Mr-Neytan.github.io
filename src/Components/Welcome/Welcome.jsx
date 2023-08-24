@@ -21,6 +21,7 @@ const Welcome = () => {
             <a href="https://www.linkedin.com/in/nathaniel-mercado-35a013242/" target='blank'><li className='contact_link'><img src="/linkedin_logo.png"></img></li></a>
             <a href="mailto:nathan.mercado0517@gmail.com" target='blank'><li className='contact_link'><img src="/gmail_logo.png"></img></li></a>
             <a href="https://github.com/Mr-Neytan" target='blank'><li className='contact_link'><img src="/github_logo.png"></img></li></a>
+            <a href="/Resume_Mercado_Nathaniel.pdf" target='blank'><li className='contact_link'><img src="/resume.png"></img></li></a>
         </ul>
     </div>
     
