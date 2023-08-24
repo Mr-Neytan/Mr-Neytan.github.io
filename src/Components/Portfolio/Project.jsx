@@ -10,8 +10,8 @@ const Project = (props) => {
         <h1 className='project_title'>{props.project["name"]}</h1>
         <p className='project_title'>{props.project["description"]}</p>
         <div className='buttons'>
-        <a href={props.project["src"]} target='blank'><button><p>Source Code</p></button></a>
-        <a href={props.project["site"]} target="blank"><button><p>View Live</p></button></a>
+        <a href={props.project["src"]} target='blank'><button><h3 className='button_text'>Source Code</h3></button></a>
+        <a href={props.project["site"]} target="blank"><button className='button_text'><h3>View Live</h3></button></a>
         </div>
         </div>
         
